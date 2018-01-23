@@ -1,14 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>xiaoaojiao</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>xiaoaojiao</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      background-color: #000;
+    }
+
+    body {
+      background: #fff url("static/footer-bg.png") no-repeat bottom;
+    }
+
+    .xiaoaojiao {
+      height: 50vh;
+      position: relative;
+    }
+
+    .xiaoaojiao-footer {
+      height: 180px;
+      position: absolute;
+      bottom: 0;
+      background: url("static/footer-bg-x.png") repeat-x bottom;
+      width: 100%;
+      left: 0;
+    }
+
+    .xiaoaojiao-footer-content {
+      position: absolute;
+      bottom: -20px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .xiaoaojiao-footer-content p {
+      font-size: 12px;
+      color: rgba(255, 255, 255, .2);
+      transition: color 2s;
+    }
+
+    .xiaoaojiao-footer-content p:hover {
+      color: rgba(255, 255, 255, .5);
+      transition: color 2s;
+    }
+  </style>
 </head>
+
 <body>
-    <script>
-        document.write(window.navigator.userAgent)
-    </script>
+    <div class="xiaoaojiao">
+        <div class="xiaoaojiao-footer">
+            <div class="xiaoaojiao-footer-content">
+                <p>© 2018 xiao.aojiao</p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
