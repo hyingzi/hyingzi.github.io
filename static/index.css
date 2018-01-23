@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #000;
+}
+body{
+    background: #fff url("footer-bg.png") no-repeat bottom;
+}
+.xiaoaojiao{
+    height: 50vh;
+    position: relative;
+}
+.xiaoaojiao-footer{
+    height: 180px;
+    position: absolute;
+    bottom: 0;
+    background: url("footer-bg-x.png") repeat-x bottom;
+    width: 100%;
+    left: 0;
+}
+.xiaoaojiao-footer-content{
+    position: absolute;
+    bottom: -20px;
+    text-align: center;
+    width: 100%;
+}
+.xiaoaojiao-footer-content p{
+    font-size: 12px;
+    color: rgba(255,255,255,.2);
+    transition: color 1s;
+}
+.xiaoaojiao-footer-content p:hover{
+    color: rgba(255,255,255,.5);
+    transition: color 1s;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,
+ol {
+    list-style: none;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #888;
+}
+input[type="tel"],
+input[type="password"],
+input[type="text"] {
+    -webkit-appearance: none;
+}
+.not-allowed {
+    cursor: not-allowed !important;
+}
+html {
+    background-color: #f7f7f7;
+    -webkit-appearance: none;
+    -webkit-text-size-adjust: none;
+    -webkit-backface-visibility: hidden;
+    font-size: 14px;
+}
+body{
+    font-family: tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.xiaoaojiao{
+    height: 50vh;
+}
+
